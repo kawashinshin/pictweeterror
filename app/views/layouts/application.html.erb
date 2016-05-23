@@ -36,7 +36,8 @@
                   </li>
                 </ul>
               </span>
-              <a class="post" href="/tweets/new">投稿する</a>
+              <%= link_to "投稿する", '/tweets/new', method: :get %>
+    
             </div>
           <% else %>
             <div class="grid-6">
